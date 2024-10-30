@@ -12,3 +12,6 @@ steps:
     plugins:
       - shellcheck#v1.4.0:
           files: hooks/**
+          steps:
+  - plugins:
+      - detect-clowns#v2.0.0: ~
